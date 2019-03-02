@@ -1,0 +1,352 @@
+@media only screen and (min-width: 400px) and (max-width: 599px){
+
+.wrapper{
+	width: 450px;
+}
+
+#header{
+	display: block;
+	top: 0px; left: 0px;
+	width: 100%;height: 60px;
+	background-color: #0080ff;
+	color: white;
+	font-weight: bold;
+
+}
+span{
+	font-weight: normal;
+}
+
+#headerMenuTop ul{
+	margin-left: 3%;
+	line-height: 12px;
+}
+#headerMenuTop li{
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	margin-right: 8px;
+	font-size: 8px;
+}
+#logo{
+	position: absolute;
+	font-size: 18px;
+	float: left;
+	left: 3%;
+	top: 40%;
+}
+#header nav{
+	display: none;
+}
+.dropdown{
+	display: block;
+	position: absolute;
+	height: 50px; width: 50px;
+	right: 3%; top: 5px;
+	background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+#bar {
+	margin: 5px 0px 5px 0px;
+	height: 10px;
+	width: 100%;
+	background-color: white;
+}
+.dropdownMenu{
+	z-index: 1;
+	position: absolute;
+	right: 5px; top: 35px;
+	background-color: #202020;
+	text-align: right;
+	font-size: 20px;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+.dropdownMenu li{
+	margin-top: 15%;
+	margin-bottom: 15%;
+	padding: 10px 5px 10px 15px;
+}
+.dropdownMenu li:hover{
+	color: #202020;
+	background-color: white;
+}
+#header a:hover{
+	color: #181818;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.rect{
+	position: absolute;
+	top: 95px; left: 112px;
+	height: 10px; width:  10px;
+	background-color: #202020;
+	z-index: -1;
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.dropdownMenuHeader{
+	z-index: 1;
+	width: 120px;
+	margin: 0px;
+	position: absolute;
+	right: 120px; top: 70px;
+	background-color: #202020;
+	font-size: 12px;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+	text-align: left;
+	border: 2px solid white;
+}
+.dropdownMenuHeader li{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 10px 30px 10px 10px;
+}
+.dropdownMenuHeader li:hover{
+	color: #202020;
+	background-color: white;
+}
+#containerMain{
+	line-height: 16px;
+	width: 100%;
+}
+#containerContentTop, #containerContentMid, #containerContentBot {
+	padding: 20px;
+	margin-left: auto; margin-right: auto;
+}
+#containerContentTop{
+	background-color: white;
+	width: 100%; height: 390px;
+}
+#containerContentMid{
+	padding-top: 3%;
+	background-color: #0080ff;
+	color: white;
+	width: 100%; height: 290px;
+}
+#containerContentBot{
+	background-color: white; 
+	width: 100%; height: 420px;
+}
+#topBoxLeft{
+	position: absolute;
+	left: 2%;
+	padding-top: 30px;
+	background-color: #0080ff;
+	color: white;
+	width: 32%;
+	float: left;
+	height: 350px;
+}
+#topBoxLeft h1{
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+}
+#topBoxLeft p {
+	font-size: 12px;
+	line-height: 18px;
+	text-align: left;
+	padding: 30px 20px 40px 20px;
+}
+#learnButton{
+	color: white;
+	background-color: #0080ff;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	padding: 5px 15px 5px 15px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 5%; right: 7%;
+}
+#topBoxRight{
+	position: absolute;
+	right: 2%;
+	background-color: #BEBEBE;
+	width: 62%;
+	float: right;
+	height: 350px;
+}
+#topBoxRightTop{
+	height: 225px;
+	max-width: 100%;
+	background: url("https://cdn-images-1.medium.com/max/2000/1*SZhorx-9XkJBWXbGhsgHtA.png") bottom left no-repeat;
+	background-size: cover;
+}
+#topBoxRightText{
+	position: absolute;
+	bottom: 2%;
+	width: 90%;
+	left: 8%;
+	line-height: 12px;
+	color: #202020;
+}
+#topBoxRightText h2{
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+#topBoxRightText p{
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+#midBoxLeft{
+	position: absolute;
+	left: 2%;
+	width: 32%;
+	float: left;
+}
+#midBoxLeft h2, #midBoxRight h2{
+	font-size:14px;
+}
+#midBoxLeft p{
+	font-size: 12px;
+	line-height: 14px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+#midBoxRight{
+	position: absolute;
+	right: 2%;
+	width: 62%;
+	float: right;
+}
+#midBoxRight h2, #midBoxRight #wireframeText{
+	padding-left: 5%;
+}
+#midBoxRight p {
+	font-size: 12px;
+}
+#midListBox{
+	margin-top: 2%;
+	color: black;
+	background-color: white;
+	height: 200px;
+}
+#midListBox h3{
+	font-size: 14px;
+}
+#midListBox p{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 11px;
+}
+#listBoxLeft{
+	padding-top: 3%; padding-left: 4%;
+	float: left;
+	width: 55%;
+}
+#listBoxLeft ul li{
+	line-height: 12px;
+	font-size: 12px;
+	padding-top: 1px;
+	font-style: italic;
+	list-style-type: none;
+	border-bottom: 1px solid black;
+}
+
+#listBoxRight{
+	padding-top: 5%; padding-right: 5%;
+	float: right;
+	width: 40%;
+}
+
+#botBoxLeft{
+	position: absolute;
+	left: 2%;
+	float:left;
+	width: 60%;
+	line-height: 16px;
+}
+#botBoxLeft h1{
+	font-size: 20px;
+}
+#botBoxLeft p{
+	font-size: 12px;
+	padding-top: 2%;
+}
+#botBoxRight{
+	position: absolute;
+	padding-top: 2%;
+	right: 2%;
+	float: right;
+	width: 35%;
+}
+#contactForm input, #contactForm textarea{
+	width: 100%;
+}
+#contactForm textarea{
+	height: 200px;
+}
+#contactForm input:focus, #contactForm textarea:focus{
+	border: 5px solid #202020;
+}
+#contactForm label{
+	font-weight: bold;
+	font-size: 12px;
+}
+#contactForm #submit{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #0080ff;
+	background-color: white;
+	border: 5px solid #0080ff;
+	width: auto;
+	float: left;
+	padding: 5px 10px 5px 10px;
+}
+#footer{
+	background-color: #202020 ;
+	color: white;
+	bottom: 0px;
+	padding: 10px;
+	height: 70px;
+	width: 100%;
+}
+#footerText{
+	position: absolute;
+	font-size: 8px;
+	width: 45%;
+	float: left;
+	top: 10%; left: 5%;
+}
+#footerNav, #copyright{
+	text-align: right;
+	width: 50%;
+	float: right; 
+	font-size: 10px;
+	position: absolute;
+}
+#footerNav{
+	top: 10%; right:  5%;
+}
+#copyright{
+	bottom: 5%; right: 5%;
+}
+
+#footer nav ul li {
+	font-size: 10px;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: 3%;
+}
+}

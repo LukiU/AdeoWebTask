@@ -1,0 +1,346 @@
+@media only screen and (min-width: 100px) and (max-width: 399px){
+
+.wrapper{
+	width: 320px;
+}
+
+#header{
+	display: block;
+	top: 0px; left: 0px;
+	width: 100%;height: 50px;
+	background-color: #0080ff;
+	color: white;
+	font-weight: bold;
+
+}
+span{
+	font-weight: normal;
+}
+
+#headerMenuTop ul{
+	margin-left: 2%;
+	line-height: 8px;
+}
+#headerMenuTop li{
+	display: inline-block;
+	padding-top: 0px;
+	padding-bottom: 8px;
+	margin-right: 5px;
+	font-size: 8px;
+}
+#logo{
+	position: absolute;
+	font-size: 18px;
+	float: left;
+	left: 3%;
+	top: 40%;
+}
+#header nav{
+	display: none;
+}
+.dropdown{
+	display: block;
+	position: absolute;
+	height: 40px; width: 40px;
+	right: 3%; top: 10px;
+	background-color: transparent;
+    background-repeat:no-repeat;
+    border: none; 
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+#bar {
+	margin: 4px 0px 4px 0px;
+	height: 8px;
+	width: 100%;
+	background-color: white;
+}
+.dropdownMenu{
+	z-index: 1;
+	position: absolute;
+	right: 5px; top: 35px;
+	background-color: #202020;
+	text-align: right;
+	font-size: 20px;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+}
+.dropdownMenu li{
+	margin-top: 15%;
+	margin-bottom: 15%;
+	padding: 10px 5px 10px 15px;
+}
+.dropdownMenu li:hover{
+	color: #202020;
+	background-color: white;
+}
+
+#header a:hover{
+	color: #181818;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.rect{
+	position: absolute;
+	top: 95px; left: 112px;
+	height: 10px; width:  10px;
+	background-color: #202020;
+	z-index: -1;
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.dropdownMenuHeader{
+	z-index: 1;
+	width: 120px;
+	margin: 0px;
+	position: absolute;
+	right: 120px; top: 70px;
+	background-color: #202020;
+	font-size: 12px;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+	text-align: left;
+	border: 2px solid white;
+}
+.dropdownMenuHeader li{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 10px 30px 10px 10px;
+}
+.dropdownMenuHeader li:hover{
+	color: #202020;
+	background-color: white;
+}
+#containerMain{
+	line-height: 16px;
+	width: 100%;
+}
+#containerContentTop, #containerContentMid, #containerContentBot {
+	padding: 10px;
+	margin-left: auto; margin-right: auto;
+}
+#containerContentTop{
+	background-color: white;
+	width: 100%; height: 470px;
+}
+#containerContentMid{
+	padding-top: 3%;
+	background-color: #0080ff;
+	color: white;
+	width: 100%; height: 350px;
+}
+#containerContentBot{
+	background-color: white; 
+	width: 100%; height: 515px;
+}
+#topBoxLeft{
+	position: absolute;
+	left: 5%;
+	top: 10px;
+	padding-top: 20px;
+	background-color: #0080ff;
+	color: white;
+	width: 90%;
+	height: 170px;
+}
+#topBoxLeft h1{
+	position: absolute;
+	font-size: 18px;
+	text-align: left;
+	top: 20px; left: 20px;
+}
+#topBoxLeft p {
+	font-size: 12px;
+	line-height: 14px;
+	text-align: left;
+	padding: 30px 20px 10px 20px;
+}
+#learnButton{
+	color: white;
+	background-color: #0080ff;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	padding: 5px 15px 5px 15px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 5%; right: 7%;
+}
+#topBoxRight{
+	position: absolute;
+	left: 5%; top: 190px;
+	background-color: #BEBEBE;
+	width: 90%;
+	height: 270px;
+}
+#topBoxRightTop{
+	height: 170px;
+	max-width: 100%;
+	background: url("https://cdn-images-1.medium.com/max/2000/1*SZhorx-9XkJBWXbGhsgHtA.png") bottom left no-repeat;
+	background-size: cover;
+}
+#topBoxRightText{
+	position: absolute;
+	line-height: 12px;
+	color: #202020;
+	width: 90%;
+	left: 5%; bottom: 5%;
+}
+#topBoxRightText h2{
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+#topBoxRightText p{
+	font-size: 12px;
+}
+#midBoxLeft{
+	position: absolute;
+	left: 5%;
+	width: 90%;
+}
+#midBoxLeft h2, #midBoxRight h2{
+	font-size:14px;
+}
+#midBoxLeft p{
+	font-size: 12px;
+	line-height: 12px;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+#midBoxRight{
+	position: absolute;
+	left: 5%; top: 600px;
+	width: 90%; 
+}
+#midBoxRight h2, #midBoxRight #wireframeText{
+	padding-left: 0%;
+}
+#midBoxRight p {
+	font-size: 12px;
+}
+#midListBox{
+	margin-top: 2%;
+	color: black;
+	background-color: white;
+	height: 150px;
+}
+#midListBox h3{
+	font-size: 12px;
+}
+#midListBox p{
+	line-height: 14px;
+	font-size: 10px;
+}
+#listBoxLeft{
+	padding-top: 3%; padding-left: 3%;
+	float: left;
+	width: 55%;
+}
+#listBoxLeft ul li{
+	line-height: 10px;
+	font-size: 10px;
+	padding-top: 0px;
+	font-style: italic;
+	list-style-type: none;
+	border-bottom: 1px solid black;
+}
+#listBoxRight{
+	padding-top: 3%; padding-right: 5%;
+	float: right;
+	width: 40%;
+}
+
+#botBoxLeft{
+	position: absolute;
+	left: 5%;
+	float:left;
+	width: 90%;
+	line-height: 14px;
+}
+#botBoxLeft h1{
+	font-size: 18px;
+}
+#botBoxLeft p{
+	font-size: 10px;
+	padding-top: 5px;
+}
+#botBoxRight{
+	position: absolute;
+	padding-top: 2%;
+	left: 5%; bottom: 1%;
+	width: 90%;
+}
+#contactForm input, #contactForm textarea{
+	width: 100%;
+}
+#contactForm textarea{
+	height: 75px;
+}
+#contactForm input:focus, #contactForm textarea:focus{
+	border: 5px solid #202020;
+}
+#contactForm label{
+	font-weight: bold;
+	font-size: 12px;
+}
+#contactForm #submit{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #0080ff;
+	background-color: white;
+	border: 5px solid #0080ff;
+	width: auto;
+	float: left;
+	padding: 5px 10px 5px 10px;
+}
+#footer{
+	background-color: #202020 ;
+	color: white;
+	bottom: 0px;
+	padding: 5px;
+	height: 90px;
+	width: 100%;
+}
+#footerText{
+	text-align: center;
+	position: absolute;
+	font-size: 8px;
+	width: 90%;
+	float: left;
+	top: 25%; left: 5%;
+}
+#footerNav, #copyright{
+	text-align: center;
+	width: 90%; left: 5%;
+	font-size: 10px;
+	position: absolute;
+}
+#footerNav{
+	top: 5%;
+}
+#copyright{
+	bottom: 5%; 
+}
+
+#footer nav ul li {
+	font-size: 10px;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: 2%;
+}
+}

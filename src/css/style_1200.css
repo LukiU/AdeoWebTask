@@ -1,0 +1,312 @@
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+
+.wrapper{
+	width: 1000px;
+}
+
+#header{
+	display: block;
+	top: 0px; left: 0px;
+	width: 100%;height: 80px;
+	background-color: #0080ff;
+	color: white;
+	font-weight: bold;
+
+}
+.dropdown{
+	display: none;
+}
+span{
+	font-weight: normal;
+}
+
+#headerMenuTop ul{
+	margin-left: 3%;
+	line-height: 12px;
+}
+#headerMenuTop li{
+	display: inline-block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-right: 8px;
+	font-size: 10px;
+}
+#logo{
+	position: absolute;
+	font-size: 20px;
+	float: left;
+	left: 3%;
+	top: 40%;
+}
+#header nav{
+	float: right;
+	right: 3%; top: 40%;
+	position: absolute;
+}
+#header nav ul li{
+	font-size: 14px;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 20px;
+}
+#header a:hover{
+	color: #181818;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.rect{
+	position: absolute;
+	top: -5px; left: 55px;
+	height: 10px; width:  10px;
+	background-color: #202020;
+	z-index: -1;
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.dropdownMenuHeader{
+	z-index: 1;
+	width: 120px;
+	margin: 0px;
+	position: absolute;
+	right: 42%; top: 30px;
+	background-color: #202020;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 5px 10px 5px;
+	text-align: left;
+}
+.dropdownMenuHeader li{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 5px 20px 5px 10px;
+}
+.dropdownMenuHeader li:hover{
+	color: #202020;
+	background-color: white;
+}
+#containerMain{
+	line-height: 20px;
+	width: 100%;
+}
+#containerContentTop, #containerContentMid, #containerContentBot {
+	padding: 30px;
+	margin-left: auto; margin-right: auto;
+}
+#containerContentTop{
+	background-color: white;
+	width: 100%; height: 600px;
+}
+#containerContentMid{
+	padding-top: 5%;
+	background-color: #0080ff;
+	color: white;
+	width: 100%; height: 500px;
+}
+#containerContentBot{
+	background-color: white; 
+	width: 100%; height: 600px;
+}
+#topBoxLeft{
+	position: absolute;
+	left: 8%;
+	padding-top: 40px;
+	background-color: #0080ff;
+	color: white;
+	width: 25%;
+	float: left;
+	height: 500px;
+}
+#topBoxLeft h1{
+	position: absolute;
+	left:15%;
+}
+#topBoxLeft p {
+	text-align: left;
+	padding: 50px 50px 50px 50px;
+}
+#learnButton{
+	color: white;
+	background-color: #0080ff;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	padding: 5px 15px 5px 15px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 10%; right: 20%;
+}
+#topBoxRight{
+	position: absolute;
+	right: 8%;
+	background-color: #BEBEBE;
+	width: 55%;
+	float: right;
+	height: 500px;
+}
+#topBoxRightTop{
+	height: 350px;
+	max-width: 100%;
+	background: url("https://cdn-images-1.medium.com/max/2000/1*SZhorx-9XkJBWXbGhsgHtA.png") bottom left no-repeat;
+	background-size: cover;
+}
+#topBoxRightText{
+	position: absolute;
+	bottom: 2%;
+	width: 75%;
+	left: 8%;
+	line-height: 16px;
+	color: #202020;
+}
+#topBoxRightText h2{
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+#topBoxRightText p{
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+#midBoxLeft{
+	position: absolute;
+	left: 8%;
+	width: 22%;
+	float: left;
+}
+#midBoxLeft h2, #midBoxRight h2{
+	font-size:16px;
+}
+#midBoxLeft p{
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+#midBoxRight{
+	position: absolute;
+	right: 8%;
+	width: 57%;
+	float: right;
+}
+#midBoxRight h2, #midBoxRight #wireframeText{
+	padding-left: 5%;
+}
+#midListBox{
+	margin-top: 2%;
+	color: black;
+	background-color: white;
+	height: 250px;
+}
+#midListBox h3{
+	font-size: 16px;
+}
+#midListBox p{
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+#listBoxLeft{
+	padding-top: 2%; padding-left: 5%;
+	top: 5%;
+	float: left;
+	width: 50%;
+}
+#listBoxLeft ul li{
+	line-height: 16px;
+	padding-top: 8px;
+	font-style: italic;
+	list-style-type: none;
+	border-bottom: 2px solid black;
+}
+#listBoxLeft ul li:last-of-type{
+	border-bottom: none;
+}
+#listBoxRight{
+	padding-top: 5%; padding-right: 5%;
+	float: right;
+	width: 40%;
+}
+
+#botBoxLeft{
+	position: absolute;
+	left: 8%;
+	float:left;
+	width: 40%;
+	line-height: 16px;
+}
+#botBoxLeft p{
+	font-size: 14px;
+	padding-top: 5%;
+}
+#botBoxRight{
+	position: absolute;
+	padding-top: 2%;
+	right: 8%;
+	float: right;
+	width: 40%;
+}
+#contactForm input, #contactForm textarea{
+	width: 100%;
+}
+#contactForm textarea{
+	height: 200px;
+}
+
+#contactForm input:focus, #contactForm textarea:focus{
+	border: 5px solid #202020;
+}
+#contactForm label{
+	font-weight: bold;
+	font-size: 14px;
+}
+#contactForm #submit{
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #0080ff;
+	background-color: white;
+	border: 5px solid #0080ff;
+	width: auto;
+	float: left;
+	padding: 5px 10px 5px 10px;
+}
+#footer{
+	background-color: #202020 ;
+	color: white;
+	bottom: 0px;
+	padding: 10px;
+	height:  100px;
+	width: 100%;
+}
+#footerText{
+	position: absolute;
+	font-size: 8px;
+	width: 35%;
+	float: left;
+	top: 20%; left: 10%;
+}
+#footerNav, #copyright{
+	text-align: right;
+	width: 50%;
+	float: right; 
+	font-size: 10px;
+	position: absolute;
+}
+#footerNav{
+	top: 10%; right:  10%;
+}
+#copyright{
+	bottom: 5%; right: 10%;
+}
+
+#footer nav ul li {
+	font-size: 10px;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: 3%;
+}
+}
